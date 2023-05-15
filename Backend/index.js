@@ -44,11 +44,6 @@ const contactSchema = new mongoose.Schema({
 
 
 
-// const createOrGetclientSchema = new mongoose.Schema({
-//    _id: String,
-//   _type: String,
-//   userName : String,
-//   image: String});
 
 
 
@@ -134,16 +129,7 @@ app.post("/contact", async (req, res)=> {
 
 
 
-// app.post("/createOrGetclient", async (req, res)=> {
-//   const client = req.body;
-//   try {
-//     const result = await CreateOrGetclient.create(client);
-//     res.status(200).json('Login Success');
-//   } catch (err) {
-//     console.log(err);
-//     res.status(500).json('Internal Server Error');
-//   }
-// });
+
 
 
 

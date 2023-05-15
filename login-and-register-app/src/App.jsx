@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-import './App.css'
 import Homepage from "./components/homepage/homepage"
 
 import About from "./components/about/about"
